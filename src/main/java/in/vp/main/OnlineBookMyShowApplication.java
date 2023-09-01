@@ -1,5 +1,4 @@
 package in.vp.main;
-Hi I am vilas manik pokarne  basically i am form nanded i  completed my graduation in Bsc in computer science from srtmun nanded .
 import org.modelmapper.ModelMapper;
 import org.modelmapper.internal.bytebuddy.asm.Advice.Return;
 import org.springframework.boot.SpringApplication;
