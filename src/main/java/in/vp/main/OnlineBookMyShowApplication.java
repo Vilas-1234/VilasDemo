@@ -14,7 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = {"in.vp.repository"})
 public class OnlineBookMyShowApplication extends SpringBootServletInitializer{
 
-@Override
+//@Override
 
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		
@@ -30,5 +30,6 @@ public class OnlineBookMyShowApplication extends SpringBootServletInitializer{
 	@Bean
 	public ModelMapper modelMapper() {
 		return new ModelMapper();
+		System.out.println ("vilas" );
 }
 }
