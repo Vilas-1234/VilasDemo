@@ -30,6 +30,6 @@ public class OnlineBookMyShowApplication extends SpringBootServletInitializer{
 	@Bean
 	public ModelMapper modelMapper() {
 		return new ModelMapper();
-		System.out.println ("vilas" );
+
 }
 }
