@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-fdsjfdsjkf
+
 @ComponentScan(basePackages = {"in.vp.repository"})
 public class OnlineBookMyShowApplication extends SpringBootServletInitializer{
 
