@@ -14,7 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = {"in.vp.repository"})
 public class OnlineBookMyShowApplication extends SpringBootServletInitializer{
 
-git@Override
+@Override
 
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		
